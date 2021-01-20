@@ -1,7 +1,20 @@
 .App {
-  text-align: center;
+  place-items: center;
+ 
 }
+.card-frame {
+  max-width: 30%;
+  outline: 1px solid orange;
 
+
+}
+.card-frame img {
+  width: 100%;
+}
+.gallery {
+  display: flex;
+  justify-content: space-around;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
