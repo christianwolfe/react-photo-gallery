@@ -9,7 +9,7 @@ function PhotoCard(props) {
             <img src={props.url} alt={props.alt}/>
             <h3>{props.title}</h3>
             <p>{props.description}</p>
-            <p>likes: {count}</p>
+            <p> 👍 {count}</p>
             
         </div>
     )
