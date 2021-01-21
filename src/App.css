@@ -2,10 +2,24 @@
   place-items: center;
  
 }
+h3 {
+  text-align: center;
+  font-size: 18px;
+}
+p {
+  text-align: center;
+  font-size: 14px;
+}
+
+button {
+  border-radius: 5px;
+}
+
 .card-frame {
   max-width: 30%;
   outline: 1px solid orange;
-
+  place-items: center;
+  justify-content: center;
 
 }
 .card-frame img {

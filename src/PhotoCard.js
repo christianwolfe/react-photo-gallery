@@ -1,12 +1,15 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 function PhotoCard(props) {
-    console.log(props);
+    const [count, setCount] = useState(0);
     return(
         <div className="card-frame">
+            <button onClick={(e) => { setCount(count + 1); }}>like</button>
+            <button onClick={(e) => { setCount(count - 1); }}>unlike</button>
             <img src={props.url} alt={props.alt}/>
-            <p>{props.title}</p>
+            <h3>{props.title}</h3>
             <p>{props.description}</p>
+            <p>likes: {count}</p>
             
         </div>
     )

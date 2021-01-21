@@ -23,8 +23,9 @@ const data = [
     }
 ]
 
-function PhotoGallery(props) {
+function PhotoGallery() {
     return(
+
         <div className="gallery">
             {
                 data.map(i => <PhotoCard
